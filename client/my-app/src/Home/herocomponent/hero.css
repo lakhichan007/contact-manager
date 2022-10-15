@@ -33,6 +33,7 @@ margin:0px 10px;
 color: black;
 }
 .fn-box>p{
+    display: inline;
     margin-left:4px;
     font-weight: lighter;
 }
@@ -68,4 +69,7 @@ color: black;
 #import-box{
     position: relative;
     left:560px;
+}
+button{
+    border: none;
 }

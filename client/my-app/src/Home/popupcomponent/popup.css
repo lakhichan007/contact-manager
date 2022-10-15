@@ -1,0 +1,9 @@
+#drag-drop-box{
+    height: 100px;
+    width: 200px;
+    border:4px solid pink;
+    margin:40vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
