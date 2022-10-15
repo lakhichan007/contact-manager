@@ -1,8 +1,13 @@
 import React from "react";
+import { useState } from "react";
 import "./hero.css"
+import Popup from "../popupcomponent/popup";
 const Hero =()=>{
+const [popup,setpopup]=useState(false)
+
     return(
         <>
+        <Popup popup={popup} close={()=>setpopup(false)}/>
         <div id="heropage-container">
             <div id="hero-container">
                 <section id="functional-box">
@@ -19,16 +24,16 @@ const Hero =()=>{
                     <i class="fa fa-chevron-down" aria-hidden="true"></i>
                     </a>
 
-                    <a href=""className="fn-box" id="delete-box">
+                    <button className="fn-box" id="delete-box">
                     <i class="fa fa-trash" aria-hidden="true"></i>
                     <p>Delete</p>
-                    </a>
+                    </button>
 
-                    <a href=""className="fn-box" id="import-box">
+                    <button onClick={()=>setpopup(true)} className="fn-box" id="import-box">
                     <i class="fa fa-download" aria-hidden="true"></i>
                     <p>Import</p>
+                    </button>
 
-                    </a>
                     <a href=""className="fn-box" id="export-box">
                     <i class="fa fa-upload" aria-hidden="true"></i>
                     <p>Export</p>
