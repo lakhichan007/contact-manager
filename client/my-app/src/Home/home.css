@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+#home-page-container{
+    height: 99vh;
+    width: 99vw;
+    display: flex;
+}
+#main-page-containe{
+
+}
