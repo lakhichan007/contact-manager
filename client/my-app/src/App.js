@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Login from './LoginPage/login';
-import Signup from './signup/signup';
+import Signup from './signup/register';
 import Home from './Home/home';
 
 function App() {
@@ -21,3 +21,4 @@ function App() {
 }
 
 export default App;
+
