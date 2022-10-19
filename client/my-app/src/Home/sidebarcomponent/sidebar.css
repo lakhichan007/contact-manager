@@ -32,20 +32,20 @@ color: #fff;
 text-decoration: none;
 margin-top: 100px;
 }
+#all-contact-button:hover{
+    background-color: darkslategray;
+}
 #total-contact{
     display: inline;
     margin-left:5px;
 }
-a{
-    text-decoration: none;
-}
-#logout{
-    color: black;
-    position: absolute;
-    bottom: 10px;
-    left: 15px;
-}
 #logout-text{
     display: inline;
     margin-left:5px;
+}
+#sb-btn{
+    position: relative;
+    top: 300px;
+    border: none;
+    width:136px;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css"
+let mytoken = window.localStorage.getItem("token")
 const Header = () => {
     return (
         <>
