@@ -20,8 +20,11 @@ display: flex;
 #functional-box>a{
     display: flex;
     align-items: center;
+    border: 4px solid #7b00ff;
     justify-content: center;
     text-decoration: none;
+    width: 300px;
+    border-radius: 3%;
 }
 .fn-box{
 width: 120px;
@@ -50,9 +53,9 @@ color: black;
 #data-head-container{
     height:8vh;
     width:99%;
-    background: #B3DFFF;
-    box-shadow: inset -1px -1px 20px rgba(254, 134, 39, 0.1), inset 1px 1px 20px rgba(254, 134, 39, 0.1);
-    border-radius: 10px;
+    background: #00d5ff;
+    /* box-shadow: inset -1px -1px 20px rgba(254, 134, 39, 0.1), inset 1px 1px 20px rgba(254, 134, 39, 0.1); */
+    /* border-radius: 10px; */
     margin:16px 10px;
     display: flex;
     justify-content: space-between;

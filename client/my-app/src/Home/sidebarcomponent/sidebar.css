@@ -4,15 +4,15 @@
 #side-container{
     height:99vh;
     width: 12vw;
-    background-color: #CEF3FF;
+    background-color: #2bff00;
     padding:10px;
 }
 #logo{
 font-style: normal;
 font-weight: 600;
-font-size: 40px;
-line-height: 61px;
-color: #0884FF;
+font-size: 30px;
+line-height: 40px;
+color: #000000;
 font-family: 'Titillium Web';
 }
 #dashboard{
@@ -23,7 +23,7 @@ font-family: 'Titillium Web';
 #all-contact-button{
 width: 135px;
 height: 40px;
-background: #2DA5FC;
+background: #0abc01;
 border-radius: 6px;
 display: flex;
 align-items: center;
@@ -33,7 +33,7 @@ text-decoration: none;
 margin-top: 100px;
 }
 #all-contact-button:hover{
-    background-color: darkslategray;
+    background-color: rgb(0, 255, 255);
 }
 #total-contact{
     display: inline;
@@ -47,5 +47,7 @@ margin-top: 100px;
     position: relative;
     top: 300px;
     border: none;
-    width:136px;
+    margin-top: 280px;
+    margin-left: -10px;
+    width:184px;
 }

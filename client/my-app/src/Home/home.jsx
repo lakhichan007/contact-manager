@@ -11,14 +11,11 @@ function Home() {
       <div id="main-page-containe">
       <section><Header/></section>
       <section><Hero/></section>
-      <div id='page-slide'>
-        <button className='home-btn'>previous</button>
-        <button id='btn2' className='home-btn'>Next</button>
-      </div>
+      
       </div>
     </div>
     </>
   )
 }
 
-export default Home
+export default Home;

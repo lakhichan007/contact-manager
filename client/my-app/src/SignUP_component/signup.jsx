@@ -30,16 +30,16 @@ const SignUp = () => {
         <div id="sign-up-container">
             <section id="top-section">
                 <div  className="image-box1">
-                    <img  src={require("./Ellipse-31.png")} alt=""/>
+                    {/* <img  src={require("./Ellipse-31.png")} alt=""/> */}
                 </div>
                 <div className="image-box2">
-                 <img id="elp1" src={require("./Group-695.png")}  alt=""/>
+                 {/* <img id="elp1" src={require("./Group-695.png")}  alt=""/> */}
                 </div>
             </section>
 
             <section id="middle">
-                <h1>Logo</h1>
-                <p>Create New Account</p>
+                <h1>Register</h1>
+                
                 <div>
                     <input className="input" type="email" placeholder="Email-ID" onChange={(e) => { setUser({ ...user, userEmail: e.target.value }) }} name="userEmail" />
                 </div>
@@ -55,8 +55,8 @@ const SignUp = () => {
             </section>
 
             <section id="bottom-section">
-                <div id="elp2" className="image-box2"><img src={require("./Group-695.png")}  alt=""/></div>
-                <div id="elp22" className="image-box1"><img  src={require("./Ellipse-32.png")} alt=""/></div>
+                {/* <div id="elp2" className="image-box2"><img src={require("./Group-695.png")}  alt=""/></div> */}
+                {/* <div id="elp22" className="image-box1"><img  src={require("./Ellipse-32.png")} alt=""/></div> */}
             </section>
         </div>
     )
